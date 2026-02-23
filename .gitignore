@@ -1,90 +1,90 @@
-# # Xmake cache
-# .xmake/
-# build/
+# Xmake cache
+.xmake/
+build/
 
-# # Binaries
-# bin/
-# lib/
-# *.so
-# *.dll
-# *.dylib
-# *.pyd
+# Binaries
+bin/
+lib/
+*.so
+*.dll
+*.dylib
+*.pyd
 
-# # MacOS Cache
-# .DS_Store
+# MacOS Cache
+.DS_Store
 
-# # Vscode
-# .vscode/
+# Vscode
+.vscode/
 
-# # Python
-# __pycache__/
+# Python
+__pycache__/
 
-# # Log
-# *.log
+# Log
+*.log
 
-# # Cache
-# cache/
+# Cache
+cache/
 
-# # JSON
-# *.json
+# JSON
+*.json
 
-# #GGUF
-# *.gguf
+#GGUF
+*.gguf
 
 
-# # Byte-compiled / optimized / DLL files
-# __pycache__/
-# *.py[cod]
-# *$py.class
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
 
-# # Distribution / packaging
-# build/
-# dist/
-# *.egg-info/
-# .eggs/
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
 
-# # Virtual environments
-# .venv/
-# env/
-# venv/
-# ENV/
-# *.env
-# *.venv
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+*.env
+*.venv
 
-# # PyInstaller
-# *.manifest
-# *.spec
+# PyInstaller
+*.manifest
+*.spec
 
-# # Installer logs
-# pip-log.txt
-# pip-delete-this-directory.txt
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
 
-# # MyPy and other type checking
-# .mypy_cache/
-# .dmypy.json
-# .pyre/
+# MyPy and other type checking
+.mypy_cache/
+.dmypy.json
+.pyre/
 
-# # Test and coverage
-# .coverage
-# htmlcov/
-# .tox/
-# .nox/
-# .cache/
-# .pytest_cache/
+# Test and coverage
+.coverage
+htmlcov/
+.tox/
+.nox/
+.cache/
+.pytest_cache/
 
-# # Jupyter Notebook checkpoints
-# .ipynb_checkpoints
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
 
-# # IDE and editor settings
-# .vscode/
-# .idea/
-# *.swp
-# *~
+# IDE and editor settings
+.vscode/
+.idea/
+*.swp
+*~
 
-# # macOS
-# .DS_Store
+# macOS
+.DS_Store
 
-# # Windows
-# Thumbs.db
-# ehthumbs.db
-# desktop.ini
+# Windows
+Thumbs.db
+ehthumbs.db
+desktop.ini
