@@ -1,0 +1,282 @@
+{
+    cross_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        plat = "linux",
+        __global = true
+    },
+    ["tool_target_llaisys-device_linux_x86_64_cxx"] = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    clang_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        plat = "linux",
+        __global = true
+    },
+    ["tool_target_llaisys-device_linux_x86_64_ar"] = {
+        toolname = "ar",
+        program = "/usr/bin/ar",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-utils_linux_x86_64_ar"] = {
+        toolname = "ar",
+        program = "/usr/bin/ar",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-device-nvidia_linux_x86_64_ar"] = {
+        toolname = "ar",
+        program = "/usr/bin/ar",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-device-nvidia_linux_x86_64_culd"] = {
+        toolname = "nvcc",
+        program = "/usr/local/cuda/bin/nvcc",
+        toolchain_info = {
+            cachekey = "cuda_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "cuda"
+        }
+    },
+    rust_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    tool_target_llaisys_linux_x86_64_sh = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-device-nvidia_linux_x86_64_cu"] = {
+        toolname = "nvcc",
+        program = "/usr/local/cuda/bin/nvcc",
+        toolchain_info = {
+            cachekey = "cuda_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "cuda"
+        }
+    },
+    fasm_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    ["tool_target_llaisys-tensor_linux_x86_64_cxx"] = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    go_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    nasm_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    cuda_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    zig_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        plat = "linux",
+        __global = true
+    },
+    ["tool_target_llaisys-device-cpu_linux_x86_64_ar"] = {
+        toolname = "ar",
+        program = "/usr/bin/ar",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-core_linux_x86_64_ar"] = {
+        toolname = "ar",
+        program = "/usr/bin/ar",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    yasm_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    gfortran_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    ["tool_target_llaisys-ops-cpu_linux_x86_64_cxx"] = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    envs_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    ["tool_target_llaisys-ops_linux_x86_64_cxx"] = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    swift_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    tool_target_llaisys_linux_x86_64_cxx = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-ops_linux_x86_64_ar"] = {
+        toolname = "ar",
+        program = "/usr/bin/ar",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    fpc_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = true,
+        plat = "linux",
+        __global = true
+    },
+    gcc_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = {
+            program = "/usr/bin/gcc",
+            name = "gcc"
+        },
+        plat = "linux",
+        __global = true
+    },
+    ["tool_target_llaisys-tensor_linux_x86_64_ar"] = {
+        toolname = "ar",
+        program = "/usr/bin/ar",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-device-cpu_linux_x86_64_cxx"] = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-utils_linux_x86_64_cxx"] = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    ["tool_target_llaisys-core_linux_x86_64_cxx"] = {
+        toolname = "gxx",
+        program = "/usr/bin/g++",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    },
+    nim_arch_x86_64_plat_linux = {
+        arch = "x86_64",
+        __checked = false,
+        plat = "linux",
+        __global = true
+    },
+    ["tool_target_llaisys-ops-cpu_linux_x86_64_ar"] = {
+        toolname = "ar",
+        program = "/usr/bin/ar",
+        toolchain_info = {
+            cachekey = "gcc_arch_x86_64_plat_linux",
+            plat = "linux",
+            arch = "x86_64",
+            name = "gcc"
+        }
+    }
+}

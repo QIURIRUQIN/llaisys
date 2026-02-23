@@ -1,0 +1,44 @@
+{
+    values = {
+        "/usr/bin/g++",
+        {
+            "-shared",
+            "-m64",
+            "-fPIC",
+            "-L/usr/local/cuda/lib64/stubs",
+            "-L/usr/local/cuda/lib64",
+            "-Lbuild/linux/x86_64/release",
+            "-Wl,-rpath=/usr/local/cuda/lib64",
+            "-s",
+            "-lllaisys-ops",
+            "-lllaisys-ops-cpu",
+            "-lllaisys-tensor",
+            "-lllaisys-core",
+            "-lllaisys-device",
+            "-lllaisys-device-cpu",
+            "-lllaisys-device-nvidia",
+            "-lcuda",
+            "-lllaisys-utils",
+            "-lcudart",
+            "-lcublas",
+            "-lcurand",
+            "-lcudadevrt",
+            "-lrt",
+            "-lpthread",
+            "-ldl"
+        }
+    },
+    files = {
+        "build/.objs/llaisys/linux/x86_64/release/src/llaisys/ops.cc.o",
+        "build/.objs/llaisys/linux/x86_64/release/src/llaisys/runtime.cc.o",
+        "build/.objs/llaisys/linux/x86_64/release/src/llaisys/tensor.cc.o",
+        "build/linux/x86_64/release/libllaisys-utils.a",
+        "build/linux/x86_64/release/libllaisys-device-nvidia.a",
+        "build/linux/x86_64/release/libllaisys-device-cpu.a",
+        "build/linux/x86_64/release/libllaisys-device.a",
+        "build/linux/x86_64/release/libllaisys-core.a",
+        "build/linux/x86_64/release/libllaisys-tensor.a",
+        "build/linux/x86_64/release/libllaisys-ops-cpu.a",
+        "build/linux/x86_64/release/libllaisys-ops.a"
+    }
+}

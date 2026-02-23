@@ -1,0 +1,10 @@
+{
+    mtimes = {
+        ["xmake.lua"] = 1767514256,
+        ["xmake/cpu.lua"] = 1767511496
+    },
+    recheck = false,
+    options = {
+        ["nv-gpu"] = true
+    }
+}

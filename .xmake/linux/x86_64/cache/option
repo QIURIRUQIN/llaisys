@@ -1,0 +1,16 @@
+{
+    ["nv-gpu"] = {
+        __sourceinfo_default = { },
+        __scriptdir = "/root/autodl-tmp/大模型计算_HW3/llaisys-thu",
+        __sourceinfo_description = {
+            ["Whether to compile implementations for Nvidia GPU"] = {
+                file = "./xmake.lua",
+                line = 13
+            }
+        },
+        default = false,
+        __sourceinfo_showmenu = { },
+        showmenu = true,
+        description = "Whether to compile implementations for Nvidia GPU"
+    }
+}

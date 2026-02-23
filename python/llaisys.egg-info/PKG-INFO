@@ -1,0 +1,9 @@
+Metadata-Version: 2.4
+Name: llaisys
+Version: 0.1.0
+Summary: Python APIs for llaisys
+Author: Pan Zezhong
+License: MIT
+Requires-Dist: torch>=2.4.0
+Requires-Dist: transformers
+Requires-Dist: accelerate
